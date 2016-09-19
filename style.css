@@ -24,7 +24,7 @@ body {
 .wrapper {
 	padding: 1%;
 	height: 98%;
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -50,7 +50,7 @@ main {
 	width: 100%;
 	background: url(img/logo_1.png);
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-position: 50%;
 	background-size: contain;
 }
 
@@ -60,23 +60,23 @@ main {
 	justify-content: center;
 	align-content: stretch;
 	width: 100%;
-	min-height: 80px;
+	min-height: 40px;
 	background: white;	
 }
 
 .main_menu ul {
 	display: flex;
 	align-items: stretch;
-	justify-content: space-around;
+	justify-content: center;
 	width: 100%;
-	min-height: 80px;
+	min-height: 40px;
 	list-style: none;
 }
 
 .main_menu ul li {
 	display: flex;
-	min-width: 20%;
-	margin: 0 10px;
+	min-width: 10%;
+	margin: 0 1%;
 	font-weight: bold;
 	text-align: center;
 	align-items: stretch;
@@ -94,11 +94,13 @@ main {
 .main_menu ul li a span {
 	display: inline-block;
 	width: 100%;
+	word-wrap: break-word;
 }
 
 .main_menu ul li a:hover {
 	box-shadow: 0 0 5px 0 black;
 	background-color: rgba(240, 255, 240, 0.8);
+	font-size: 1.1em;
 }
 
 .main_footer {
@@ -129,9 +131,25 @@ main {
 	align-self: flex-end;
 	margin-bottom: 20px;
 	margin-left: auto;
-	margin-right: 20px;
+	margin-right: 20%;
 }
 
 .main_footer section .footer_part {
-	margin: 20px;
+	margin: 1%;
+	width: 10%;
+	word-wrap: break-word;
+}
+
+.main_footer section .contacts {
+	margin-left: 20%;
+}
+
+.main_footer section .socials li a {
+	display: block;
+	height: 5%;
+	width: 100%;
+}
+
+.main_footer section .socials a:nth-child(1) {
+	background-image: url(img/icons.png);
 }
